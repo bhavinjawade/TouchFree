@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+ 
+    "name": "TouchFree",
+    "short_name": "TouchFree",
+    "author": "Bhavin Jawade",
+    "description": "Control Webpages using gestures",
+    "version": "1.0.0",
+ 
+    "icons" : {
+        "38" : "icon38.png"
+    },
+    "browser_action": {
+        "default_icon": "iconOff38.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "scripts": ["inject.js"]   
+    }
+}
