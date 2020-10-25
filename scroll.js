@@ -289,7 +289,7 @@ var curr_zoom = 100;
 var scroll_limit = 500;
 var count = 0;
 var now = 0;
-var prev_time = 0;
+var prev_now = 0;
 
 gest.start(), gest.options.subscribeWithCallback(function (e) {
     console.log(e);
