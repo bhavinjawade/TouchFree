@@ -8,6 +8,7 @@ Chrome extension that allows user to control any webpage without touching any de
 ```
 git clone https://github.com/bhavinjawade/TouchFree
 go to chrome://extensions
+Enable 'Developer Mode'
 click on 'load unpackaged' extensions
 select the project folder.
 ```
@@ -25,3 +26,6 @@ It controls webpages using gestures. Here is a brief description:
 
 ### References:
 1. **Gest.js:** https://github.com/hdmchl/gest.js
+
+
+![](2020-10-25-07-32-24.png)
